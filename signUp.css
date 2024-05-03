@@ -1,0 +1,114 @@
+body{
+    color: white;
+    background-color: #1E1E1E;
+  }
+
+  /* form */
+  .myLeftCtn {
+    margin-top: 5%;
+    color: black;
+    background-image: linear-gradient(to bottom, rgb(40, 94, 232), rgb(249, 249, 249));
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+  }
+  .myLeftCtn header {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .myLeftCtn .myInput {
+    width: 300px;
+    height: fit-content;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 490px) {
+    .myLeftCtn .myInput{
+      width: 100%;
+    }
+    .myLeftCtn{
+      padding: 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 760px) {
+    .myLeftCtn .myInput{
+      width: 200px;
+    }
+  }
+  
+  @media only screen and (min-width: 995px) {
+    .myLeftCtn .myInput{
+      width: 260px;
+    }
+  }
+  
+  .myLeftCtn .myInput:focus {
+    outline: none;
+  } 
+  .myForm {
+    position: relative;
+    margin-top: 50px;
+  } 
+   
+  .myLeftCtn .butt {
+    background: linear-gradient(45deg, #0094b2, #002587);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  } 
+  .myLeftCtn .butt:hover {
+    background: linear-gradient(45deg, #c85bff, #b726ff);
+  }
+  .myLeftCtn .butt:focus {
+    outline: none;
+  } 
+  .myLeftCtn .fas {
+    position: relative;
+    padding-top: 13px;
+    color: #0084c9;
+    left: 36px;
+  } 
+  .butt_out {
+    background: transparent;
+    color: #fff;
+    width: 120px;
+    border: 2px solid#fff;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  } 
+  .butt_out:hover {
+    border: 2px solid#eecbff;
+  } 
+  .butt_out:focus {
+    outline: none;
+  }
+  
+  .form-group{
+    margin: 20px;
+    display: flex;
+    
+    flex-direction: row;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  
